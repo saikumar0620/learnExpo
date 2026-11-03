@@ -1,10 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { Link } from 'expo-router'
 
 export default function Profile() {
   return (
     <View style={styles.container}>
-      <Text>Profile page</Text>
+      <Text>Profile page not found</Text>
+      <Link href="/">go to home</Link>
     </View>
   )
 }
