@@ -8,6 +8,7 @@ export default function Profile() {
   if (!isLoggedIn) {
     return <Redirect href="/login" />
   }
+  
   return (
     <View style={styles.container}>
       <Text>Profile page </Text>
